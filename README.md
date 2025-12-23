@@ -1,10 +1,10 @@
 How to use:
 
-```bash
+```sh
 npm i @yodogawa404/get-unicode-chunk-range_jp
 ```
 
-```nodejs
+```js
 import unicode_ranges from "@yodogawa404/get-unicode-chunk-range_jp/jp.json" with {type:'json'}
 
 console.log(unicode_ranges)
