@@ -3,7 +3,8 @@
   "name": "@yodogawa404/get-unicode-chunk-range_jp",
   "version": "0.2.13",
   "scripts": {
-    "build": "node ./scripts/generator.js"
+    "build": "node ./scripts/generator.js",
+    "format": "prettier . --write"
   },
   "files": [
     "jp.json"
@@ -11,5 +12,8 @@
   "license": "UNLICENSED",
   "repository": {
     "url": "https://github.com/yodogawa404/get-unicode-chunk-range_jp"
+  },
+  "devDependencies": {
+    "prettier": "3.7.4"
   }
 }
