@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "@yodogawa404/get-unicode-chunk-range_jp",
+  "version": "0.2.0",
+  "scripts": {
+    "build": "node ./scripts/generator.js"
+  },
+  "files": [
+    "jp.json"
+  ],
+  "license": "UNLICENSED"
+}
