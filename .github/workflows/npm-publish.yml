@@ -24,7 +24,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      # contents: read
       id-token: write
     steps:
       - uses: actions/checkout@v4
@@ -32,5 +32,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       # - run: npm ci
       - run: npm publish --access public
