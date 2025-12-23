@@ -8,5 +8,8 @@
   "files": [
     "jp.json"
   ],
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "url": "https://github.com/yodogawa404/get-unicode-chunk-range_jp"
+  }
 }
